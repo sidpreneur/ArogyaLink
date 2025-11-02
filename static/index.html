@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArogyaLink Demo</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+        :root {
+            --primary-green: #28a745;
+            --dark-green: #218838;
+            --light-green-bg: #e8f5e9;
+            --dark-text: #333;
+            --light-text: #555;
+            --border-color: #ddd;
+            --shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f4f0;
+            color: var(--dark-text);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+            border-top: 5px solid var(--primary-green);
+        }
+
+        h1 {
+            color: var(--dark-text);
+            text-align: center;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        p {
+            color: var(--light-text);
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 12px 15px;
+            margin-bottom: 15px;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            font-size: 1em;
+            box-sizing: border-box;
+            transition: border-color 0.3s, box-shadow 0.3s;
+        }
+
+        input[type="text"]:focus {
+            outline: none;
+            border-color: var(--primary-green);
+            box-shadow: 0 0 0 3px rgba(40, 167, 69, 0.2);
+        }
+
+        button {
+            width: 100%;
+            padding: 12px 20px;
+            background-color: var(--primary-green);
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 1.1em;
+            font-weight: 500;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        button:hover {
+            background-color: var(--dark-green);
+            transform: translateY(-2px);
+        }
+
+        #results {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: var(--light-green-bg);
+            border-radius: 6px;
+            border-left: 4px solid var(--primary-green);
+            line-height: 1.6;
+            min-height: 100px;
+            color: #155724;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>ArogyaLink Dual-Coding</h1>
+        <p>Try these AYUSH terms: <strong>jvaraH</strong>, <strong>Kasa</strong>, <strong>visUcikA</strong>, or <strong>vikAraH</strong>.</p>
+        <input type="text" id="ayushInput" placeholder="e.g., jvaraH">
+        <button id="searchButton">Get Dual Code</button>
+        <div id="results">Enter a term and click the button.</div>
+    </div>
+    <script src="./static/script.js"></script>
+</body>
+</html>
