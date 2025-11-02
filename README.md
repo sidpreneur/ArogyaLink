@@ -74,5 +74,5 @@ Follow these steps to set up and run the ArogyaLink prototype on your local mach
 ### 1. Clone the Repository
 
 ```bash
-git clone [https://github.com/your-github-username/ArogyaLink.git](https://github.com/your-github-username/ArogyaLink.git)
+git clone [https://github.com/sidpreneur/ArogyaLink.git](https://github.com/your-github-username/ArogyaLink.git)
 cd ArogyaLink
