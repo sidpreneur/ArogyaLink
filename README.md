@@ -1,5 +1,5 @@
-ArogyaLink: The Digital Rosetta Stone for Indian Healthcare
-Project Status: This project was successfully developed for the Smart India Hackathon 2025, solving Problem Statement #25026. We are proud to have been selected to advance to the Grand Finale.
+#ArogyaLink: The Digital Rosetta Stone for Indian Healthcare
+Project Status: This project was successfully developed for the Smart India Hackathon 2025, solving Problem Statement #25026. We are proud to have been selected by our college, MIT Manipal to represent our college on national levels.
 
 ArogyaLink is a lightweight, high-performance microservice that solves the critical interoperability gap between India's traditional Ayush terminologies (NAMASTE) and the modern, global WHO ICD-11 standard.
 
